@@ -189,7 +189,7 @@ $(document).ready(function () {
         let top_configurations;
         if (bitNumber(table_configuration) > 17) {
             //to many tiles
-            let html = '<div class="result_error">Too many tiles selected. No possible result.</div>';
+            let html = '<div class="result_error">石片过多,无法演算</div>';
             $("#output_container").append($(html));
         } else {
             //add description
